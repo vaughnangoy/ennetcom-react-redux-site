@@ -1,0 +1,33 @@
+@import '../global.scss'; 
+
+[data-section-type="footer"] {
+	background: $footerGrey;
+	border-top: .1em solid rgba(74,74,74,0.1); 
+}
+
+footer {
+	padding: 20px 0;
+	color: $greyOnGrey;
+
+	h3 {
+		font-size: .8em;
+	}
+	
+	address, p {
+		font-size: .7em;
+	}
+
+	address span {
+		display: block;
+		margin-bottom: 0.8em;
+	}
+
+	p {
+		line-height: 2em;
+
+		&.product-links a {
+			display: block;
+			margin-bottom: 0.8em;
+		}
+	}
+}

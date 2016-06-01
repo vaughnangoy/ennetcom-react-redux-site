@@ -1,0 +1,241 @@
+@import '../lib/_mixins.scss';
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700);
+
+$font-headers:		'Ubuntu', sans-serif;
+$font-paragraph: 	'Source Sans Pro', sans-serif;
+
+$white:				#fff;
+$black:				#000;
+$blue:				#006CB5;
+$footerGrey:		rgba(216,216,216,100);
+$greyOnGrey:		#4A4A4A;
+$gold:				#FDD352;
+$red:				#990000;
+
+$marginBottom: 		20px;
+$padding-unit:		20px;
+$half-padding-unit: $padding-unit / 2;
+
+body {
+	font-family: $font-paragraph;
+	background: $white;
+	margin: 0;
+
+	h1, h2 {
+		font-family: $font-headers;
+	}
+
+	p, h3 {
+		font-family: $font-paragraph;
+	}
+
+	.container > * {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	a {
+		&:link,
+		&:visited,
+		&:focus {
+			color: $blue;
+		}
+	}
+
+	blockquote {
+		border: none;
+	}
+
+	address {
+		padding-top: .4em;
+	}
+
+	button {
+		@include primary-cta;
+	    text-transform: uppercase;
+	    letter-spacing: 0.2em;
+	    font-size: 0.8em;
+	}
+
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.centre {
+		text-align: center;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.left {
+		text-align: left;
+	}
+
+	.absolute {
+		position: absolute;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.pad {
+		padding: 1em;
+	}
+
+	.mgn {
+		margin: 1em;
+	}
+
+	.bottom-margin {
+		margin-bottom: $marginBottom; 
+	}
+
+	.absoluteHorizonalCentre {
+		position: absolute;
+		left: 50%;
+
+		> * {
+			position: relative;
+			left: -50%;
+		}
+	}
+
+	.quote {
+		color: $blue;
+
+		blockquote {
+			color: inherit;
+			font-size: 1.1em;
+			letter-spacing: 0.1em;
+		}
+
+		i {
+			font-size: 1.5em;
+		}
+	}
+
+	.index-priority {
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.primary-cta {
+	@include primary-cta;
+}
+
+.cta-container{
+	display: inline-block;
+	&.primary a {
+		@include primary-cta;
+	}
+}
+
+
+
+.container[data-section-type="body"] {
+	.products {
+		h2 {
+			padding-top: 0;
+		}
+	}
+}
+
+.main {
+	padding: $padding-unit;
+	color: $white;
+	font-size: 1.3em;
+
+	p {
+		margin: 0;
+	}
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+
+	&-city {
+		
+		background: repeating-linear-gradient(
+		  rgba(0, 0, 0, 0.5),
+		  rgba(0, 0, 0, 0.5) 1px,
+		  rgba(0, 0, 0, 0.7) 1px,
+		  rgba(0, 0, 0, 0.7) 2px
+		), 
+		url(/build/assets/images/new-york-city-984145.jpg) 0% 0% / cover;
+
+		-webkit-filter: grayscale(1);
+  		filter: grayscale(1);
+	}
+
+}
+
+.bg2 {
+	&-diagonal {
+		background: repeating-linear-gradient(
+			45deg,
+		  	rgba(0, 0, 0, 0.05),
+		    rgba(0, 0, 0, 0.05) 2px,
+		    rgba(0, 0, 0, 0.05) 2px,
+		    rgba(0, 0, 0, 0.01) 6px
+		);
+	}
+}
+
+section[data-type="component"] {
+	width: 100%;
+
+	> * {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	&.custom-list > * {
+		padding: 0;
+	}
+
+	&.centre-text .column p {
+		text-align: center;
+	}
+}
+
+.products {
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		color: $footerGrey;
+		margin-top: -40px;
+	}
+
+	.description {
+		color: $white;
+		font-size: 1em;
+		background-color: $greyOnGrey;
+		margin-bottom: $marginBottom;
+
+	}
+}
+
+.markets {
+	[data-type="feature-badge"] {
+		margin-bottom: 1em;
+	}
+}
+
+
+

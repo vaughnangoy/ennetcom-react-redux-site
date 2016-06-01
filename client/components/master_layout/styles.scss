@@ -1,0 +1,19 @@
+@import '../global.scss';
+
+.container[data-section-type="body"] {
+	background: $white;
+	min-height: 500px;
+	
+	> * {
+		margin: 0 auto;
+		padding: 20px 0;
+	} 
+
+	.flush {
+		padding: 0;
+	}
+
+	[data-section-type="banner"] {
+		padding-top: 0;
+	}
+}

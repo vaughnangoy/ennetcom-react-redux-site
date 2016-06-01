@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"this",
+				"thisprops	thisprops"
+			],
+			[
+				"import",
+				"import.es6.statement	import_es6_statement"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"impor",
+				"import.scss.global	import_global"
+			],
+			[
+				"impo",
+				"import_globals	import_globals"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"backo",
+				"background-color"
+			],
+			[
+				"image",
+				"imageOffset"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"reac",
+				"react_component	react_component"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"place",
+				"placeholder_image	placeholder_image"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"header",
+				"headerLinks"
+			],
+			[
+				"rea",
+				"react_component	react_component"
+			],
+			[
+				"re",
+				"react.module.full	react.module.full"
+			],
+			[
+				"handle",
+				"handleBarsView"
+			],
+			[
+				"event",
+				"eventObject"
+			],
+			[
+				"get",
+				"rget	router.get"
+			],
+			[
+				"ch",
+				"chai_context	chai_context"
+			],
+			[
+				"real",
+				"relativeBuildFolder"
+			],
+			[
+				"rela",
+				"relativeSourceFolder"
+			],
+			[
+				"com",
+				"componentLocation"
+			],
+			[
+				"renderCom",
+				"renderComponent"
+			],
+			[
+				"comp",
+				"componentFactoryExists"
+			],
+			[
+				"compone",
+				"componentLocation"
+			],
+			[
+				"como",
+				"componentName"
+			],
+			[
+				"bundle",
+				"bundlejsPath"
+			],
+			[
+				"server",
+				"serverPathArray"
+			],
+			[
+				"he",
+				"helloworld"
+			],
+			[
+				"es",
+				"es6Src"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "box-promo.jsx",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "box-promo2.jsx",
+			"settings":
+			{
+				"buffer_size": 604,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "box-promo3.jsx",
+			"settings":
+			{
+				"buffer_size": 454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles.scss",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/header/styles.scss",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/vaughn/Dropbox/development/ennetcom.com/deployment/globals/data.json",
+			"settings":
+			{
+				"buffer_size": 2555,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"foun",
+				"Snippet: 2.column.foundation"
+			],
+			[
+				"ssbabel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: test_stub"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 427.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vaughn/Dropbox/development/ennetcom.com",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/globals",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/box-promo",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/header"
+	],
+	"file_history":
+	[
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/thisprops.sublime-snippet",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/package.json",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/.jscsrc",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/vaughn/.zshrc",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/banner/banner.jsx",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/image.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/react.dangerouslySetInnerHTML.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/placeholder_image.sublime-snippet",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/banner/styles.scss",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/index.template",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/footer/styles.scss",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/1.column.foundation.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/webpack.config.js",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/header/styles.scss",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/footer.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/server.js",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/header/styles.scss",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/footer.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/globals/global.scss",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/app.js",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/footer/footer.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/pages/index.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/master_layout/masterLayout.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/master_layout/styles.scss",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/masterLayout.jsx",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/react_component.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/react_component.xml",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/import_globals.sublime-snippet",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/pages/index.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/.babelrc",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/.gitignore",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/header/copy",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/header/header.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/inactive.babelrc",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/masterLayout.jsx",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/views/layouts/index.handlebars",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/package.json",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/modules/pageData.js",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/header.jsx",
+		"/Users/vaughn/Dropbox/development/testdive/package.json",
+		"/Users/vaughn/Dropbox/development/testdive/src/app.js",
+		"/Users/vaughn/Dropbox/development/testdive/webpack.config",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/data.json",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/views/index.handlebars",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/index.js",
+		"/Users/vaughn/Dropbox/development/play/webpack/index.js",
+		"/Users/vaughn/Dropbox/development/play/webpack/src/app/styles.scss",
+		"/Users/vaughn/Dropbox/development/play/webpack/index.html",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/deployment/components/header.js",
+		"/Users/vaughn/Dropbox/development/play/webpack/webpack.config.js",
+		"/Users/vaughn/Dropbox/development/ennetcom.com/dev/package.json",
+		"/Users/vaughn/Dropbox/development/play/webpack/style.css",
+		"/Users/vaughn/Dropbox/development/play/webpack/test.scss",
+		"/Users/vaughn/Dropbox/development/play/webpack/.gitignore",
+		"/Users/vaughn/Downloads/foundation-6/css/foundation.min.css",
+		"/Users/vaughn/Dropbox/development/play/webpack/webpack.config",
+		"/Users/vaughn/Dropbox/development/_workflow/.babelrc",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/pubsub/pubsub.es6.js",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/pubsub/pubsub.spec.es6.js",
+		"/Users/vaughn/Dropbox/development/_workflow/package.json",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/pubsub/pubsub.es6",
+		"/Users/vaughn/Dropbox/development/mocha_chai_test/imp.js",
+		"/Users/vaughn/Dropbox/development/mocha_chai_test/test/mocha.opts",
+		"/Users/vaughn/Dropbox/development/mocha_chai_test/package.json",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/testMochaAndChai/canDo.spec.js",
+		"/Users/vaughn/Dropbox/development/mocha_chai_test/imp.spec.js",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/robot/robot.es6",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/pubsub/pubsub.spec.es6",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/robot/robot.spec.es6.js",
+		"/Users/vaughn/.bashrc",
+		"/Users/vaughn/Dropbox/development/mocha_chai_test/.babelrc",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/chai_context.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/test_stub.sublime-snippet",
+		"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/templates/views/playground.hbs",
+		"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/routes/views/playground.js",
+		"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/routes/index.js",
+		"/Users/vaughn/Documents/lipsum",
+		"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/package.json",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/_es6_/_.module.es6",
+		"/Users/vaughn/Dropbox/development/.tern-project",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/vaughn/Dropbox/development/_workflow/gulpfile.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/app.jsx",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/styles.scss",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/views/body.handlebars",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/helloworld.jsx",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/index.jsx",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/build/bundle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/package.json",
+		"/Users/vaughn/Dropbox/development/_workflow/build/bundle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/node_modules/react/lib/ReactServerRendering.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/node_modules/react/lib/React.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/component.factory",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp1/build/bundle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp1/build/styles.css",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/readdir.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/filesys/styles.css",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp2/build/styles.css",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/assets/bundle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp1/lifecycle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/_template_/_.module.js",
+		"/Users/vaughn/Dropbox/development/_workflow/1. modules/_template_/compiled/_.module.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp1/styles.css",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/views/layout/index.handlebars",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/comp1/bundle.js",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/server/views/index.handlebars",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/package.json",
+		"/Users/vaughn/Dropbox/development/_workflow/2. components/index.js",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/react.render.sublime-snippet",
+		"/Users/vaughn/Library/Application Support/Sublime Text 3/Packages/User/react.module.sublime-snippet",
+		"/Users/vaughn/.npmrc",
+		"/Users/vaughn/npmrc",
+		"/Users/vaughn/Dropbox/development/node1/package.json",
+		"/Users/vaughn/.bash_profile",
+		"/Users/vaughn/Dropbox/development/development.sublime-project",
+		"/Users/vaughn/Dropbox/development/node1/gulpfile.js",
+		"/Users/vaughn/Dropbox/development/babelplay/script.es6.js",
+		"/Users/vaughn/Dropbox/development/node1/.nvmrc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1,-/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/node_modules/*/*",
+			"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1,-/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1/node_modules/*",
+			"/Users/vaughn/Dropbox/development/_workflow/3. projects/keystone-1"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"this.props.",
+			"0",
+			"x",
+			"linkPath",
+			"name",
+			"Our Products",
+			"\"\"\n",
+			"class=",
+			"class",
+			"snippet",
+			"stylesheet",
+			"class",
+			")",
+			"= require(",
+			"var",
+			"';\n",
+			"= require(",
+			"title",
+			"ReactDOM.js",
+			"/~/react/lib/ReactDOM.js",
+			"158",
+			"require",
+			"components",
+			"Comp",
+			"renderReactComponentForPage",
+			"getData",
+			"require(",
+			"getAbout",
+			"context",
+			"{}\n",
+			"$HOME",
+			"/Users/vaughn/.rvm/gems/ruby-2.1.0/bin",
+			"projects",
+			"context('I should be able to subscribe', () => {\n		let event = 'module:event';\n		notify.subscribe(event, () => {}).to.include(event);\n	});",
+			"to",
+			");\n",
+			"context('I should be able to publish', () => {\n\n	});",
+			"context('I should be able to subscribe', () => {\n\n	});",
+			"mongo",
+			"partialsDir",
+			"templates",
+			"layoutsDir",
+			"');\n",
+			"relativeDirectoryFromFile",
+			"relativeDirectoryFromFile2",
+			"workflowComponentsLib",
+			"())\n",
+			"}))\n",
+			"require",
+			"workflowModulesSrc",
+			"rte",
+			"componentFileName",
+			".virtualPath",
+			"path",
+			"require",
+			");\n",
+			"require",
+			"basePath",
+			";",
+			" = ",
+			"var",
+			"bundle",
+			"route",
+			"app.route('/', function(req, res) {\n	res.render('index');\n});",
+			"modules",
+			"gulp",
+			"compile_modules",
+			"gulp.task('compile_modules', function() {\n  gulp.src(['1. modules/**/*.module.js','!1. modules/**/*.module.spec.js','!1. modules/**/compiled/*.js'])\n  	.pipe(rte(':path/:basename:ext',{path:'compiled'}))\n  	.pipe(header(banner, { pkg : pkg } ))\n  	.pipe(gulp.dest(relativeDirectoryFromFile));\n});",
+			"require",
+			"FromGulpf",
+			"relativeDirectory",
+			"gulp.task('myfunc', function() {\n  gulp.src(['1. modules/**/*.module.js','!1. modules/**/*.module.spec.js'])\n  	.pipe(gulp.dest(function(file) {\n  		//console.log(_.isArray(object));\n  		var folderPath = file.history[0].split('/');\n  		folderPath.pop();\n  		folderPath = folderPath.join('/');\n      	return folderPath + savePath;\n    }));\n});",
+			"path",
+			":"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "box-promo.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "box-promo2.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "box-promo3.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/vaughn/Dropbox/development/ennetcom.com/deployment/scripts/components/header/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/vaughn/Dropbox/development/ennetcom.com/deployment/globals/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								859,
+								859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 272.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "ennetcom.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"box",
+				"deployment/scripts/components/box-promo/box-promo2.jsx"
+			],
+			[
+				"pub",
+				"development/_workflow/1. modules/pubsub/pubsub.es6"
+			],
+			[
+				"reactserverrendering",
+				"_workflow/2. components/node_modules/react/lib/ReactServerRendering.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

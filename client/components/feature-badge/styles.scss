@@ -1,0 +1,15 @@
+@import '../global.scss';
+
+[data-type="feature-badge"] {
+	    margin-bottom: 5em;
+
+	    h3 {
+	    	font-size: 1.1em;
+	    }
+
+	    h4 {
+	    	font-size: .6em;
+	    	color: $blue;
+	    	margin-top: -1em;
+	    }
+}

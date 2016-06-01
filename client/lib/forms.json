@@ -1,0 +1,32 @@
+{
+	"forms": {
+		"email": "Email", 
+		"firstname": "Firstname", 
+		"surname": "Surname", 
+		"contactno": "Contactno", 
+		"password": "Password", 
+		"passwordConfirmation": "Password Confirmation", 
+		"street": "Street", 
+		"city": "City", 
+		"postcode": "Postcode", 
+		"country": "Country",
+		"signUp": "Sign Up",
+		"signIn": "Sign In",
+		"errors": {
+			"email": "Please enter a Email", 
+			"firstname": "Please enter a Firstname", 
+			"surname": "Please enter a Surname", 
+			"contactno": "Please enter your Mobile number", 
+			"password": "Please enter a Password", 
+			"passwordConfirmation": "Please Re-enter a matching password", 
+			"street": "Please enter your Street", 
+			"city": "Please enter your City", 
+			"postcode": "Please enter your Postcode", 
+			"country": "Please enter your Country"
+		}
+	},
+	"signIn": {
+		"title" : "Sign In / Sign Up"
+	}
+
+}

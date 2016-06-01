@@ -1,0 +1,614 @@
+{
+	"index": {
+		"title": "Homepage",
+		"carosel":[
+			{
+				"image": "",
+				"alt": "",
+				"caption": ""
+			}
+		],
+		"banner": {
+			"headline": "<p>Ennetcom exclusive encrypted</p><p>communications world wide.</p>",
+			"quote": "Surrounded by an exclusive development team of renowned cybersecurity specialists, Ennetcom will continue to push the boundaries in the development of ‘state of the art’ cybersecurity products.",
+			"phone": "/build/assets/images/Ennetcom_Product_Q10_Certificates.png",
+			"city": "/build/assets/images/new-york-city-984145.jpg"
+		},
+		"box_promo": [
+			{
+				"info": "PGP is a proven secured encryption method which allows the use of high standard encryption on BlackBerry® email accounts.",
+				"src": "Ennetcom_BlackBerry_Q10.png"
+			},
+			{
+				"info": "With Full disk encryption &amp; AES 256 bits encryption",
+				"src": "apple_macbook_air_secured.png"
+			},
+			{
+				"h3": "Need more information?",
+				"h4": "Please <a data-link-name=\"contact_us\">contact us</a> and tell us how we can help you",
+				"contact_us": {
+					"url": "/url",
+					"text": "Contact Us"
+				}
+					
+			}
+		]
+	},
+	"header": {
+		"filename": "./components/header.jsx",
+		"topup": "topup",
+		"navigation": {
+			"mainLinks": [
+				
+							{
+								"name": "Encrypted BlackBerry®",
+								"url": "/products/encrypted-blackberry"
+							},
+							{
+								"name": "BlackBerry® Platform",
+								"url": "/blackberry-platform"
+							},
+							{
+								"name": "Secure Macbook Air ",
+								"url": "/products/secure-macbook-air"
+							}
+					
+			],
+			"subLinks": [
+				
+							{
+								"name": "Business Solutions",
+								"url": "business-solutions"
+							},
+							{
+								"name": "About",
+								"url": "about"
+							},
+							{
+								"name": "Markets",
+								"url": "markets"
+							},
+							{
+								"name": "Contact",
+								"url": "contact"
+							}
+			]
+		}
+	},
+	"footer": {
+		"offices": [
+			{
+				"title": "Sales office (NL)",
+				"address_line_1": "Ennet Com",
+				"address_line_2": "Test Streeet",
+				"tel": "T: +31 0000 0000 000",
+				"email": "info@ennetcom.local"
+			},
+			{
+				"title": "Business Solutions (NL)",
+				"address_line_1": "Com Ennet",
+				"address_line_2": "Test Street",
+				"tel": "T: +31 (0) 24 30 300 80",
+				"email": "E: business@ennetcom.local"
+			}
+		],
+		"product_links": { 
+			"title": "Our Products",
+			"links": [
+				{ "name": "BlackBerry S/MIME MEG and Open PGP encryption", "url": "products/encrypted-blackberry"},
+				{ "name": "BlackBerry® BIS and BES platform", "url": "blackberry-platform"},
+				{ "name": "Secure MacBook Air", "url": "secure-macbook-air"},
+				{ "name": "Pricing plans", "url": "price-plans"}
+			]
+		},
+		"bbm_trade_notice": {
+			"title": "BlackBerry® and RIM®",
+			"info": "The Trademarks BlackBerry® and RIM® are owned by Research In Motion Limited and are registered in the United States and may be pending or registered in other countries. Ennetcom.com is not endorsed, sponsored, affiliated with or otherwise authorized by Research In Motion Limited."
+		},
+		"copyright": "Copyright ©2016. All rights reserved. Ennetcom Encrypted Network Communications."
+	},
+	"products" : [
+		{
+			"id": "encrypted-blackberry",
+			"title" : "S/MIME MEG Closed",
+			"price" : 1299.99,
+			"subtitle" : "Encrypted BlackBerry® System",
+			"image" : "/build/assets/images/Ennetcom_BlackBerry_Q10.png",
+			"desc" : "Ennetcom is the only company in the world that offers encrypted BlackBerry® devices with 3 layers of encryption. In addition to the BES BlackBerry® encryption and standard S/MIME support package, we have built a Mobile Encryption Gateway. This is a closed system. Users can only communicate to other Ennetcom S/MIME.",
+			"features" : [
+				{
+					"src" : "/build/assets/images/features/Ennetcom_secure_calendar.png",
+					"title" : "Calendar",
+					"desc" : "encrypted and secured"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_secure_calendar.png",
+					"title" : "BlackBerry® Mail",
+					"desc" : "s/mime meg encrypted"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_secure_calendar.png",
+					"title" : "Storage",
+					"desc" : "encrypted and secured"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_secure_calendar.png",
+					"title" : "Contact Data",
+					"desc" : "encrypted and secured"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_AES-256-certificate_badge.png",
+					"title" : "AES 256",
+					"desc" : "encryption"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_RSA-4096-certificate_badge.png",
+					"title" : "RSA 4096",
+					"desc" : "encryption"
+				},
+				{
+					"src" : "/build/assets/images/features/Ennetcom_PGP_Certificate.png",
+					"title" : "PGP",
+					"desc" : "pretty good privacy"
+				}
+			]
+		},
+		{
+			"id": "secure-macbook-air",
+			"title": "Macbook Air",
+			"image" : "/build/assets/images/apple_macbook_air_secured.png",
+			"price" : 2499.99,
+			"item" : {
+				"masterHeader": "Ennetcom secure MacBooks",
+				"columnCount" : 1,
+				"columnData" : [{
+					"heading" : "have the following features:",
+					"list" : [
+						{"icon" : "fa-key", "caption" : "Encrypted OS"},
+						{"icon" : "fa-key", "caption" : "Encrypted data storage"},
+						{"icon" : "fa-key", "caption" : "Full disk encryption"},
+						{"icon" : "fa-key", "caption" : "AES 256 bits encryption – MAC encryption"},
+						{"icon" : "fa-key", "caption" : "Works with any internet connection"}
+					]
+				}]
+			},
+			"main" : {
+				"columnCount" : 1,
+				"columnData" : [{"body" : "This Secure MacBook Air protects your data storage with military grade encryption and allows you to browse safely and anonymously."}]
+			}
+		}
+	],
+	"markets" : {
+		"main" : {
+			"columnCount" : 1,
+			"columnData" : [{"body" : "Ennetcom offers state-of-the-art security solutions for protecting corporate communications and data storage. With closed encrypted e-mail platforms, we enable organizations and their customers to communicate in a secure manner. Furthermore; our solutions help to boost efficiency, create time-savings and realise a higher productivity output."}]
+		},
+		"mid" : {
+			"masterHeader" : "Secure communication and mobile encryption",
+			"columnCount" : 2,
+			"columnData" : [
+				{
+					"body" : "The need to explain &#x201C;why secure communication is so important?&#x201D; remains hardly necessary in today&#x2019;s digitalised world and infrastructure. It has become vital to use"
+				},
+				{
+					"body" : "encryption protocols to protect your confidential data.<br /><strong>Well known protocols as PGP, S/MIME, AES, RSA and others are used more and more every day.</strong>"
+				}
+			]
+		},
+		"sectors" : {
+			"columnCount" : 4,
+			"columnData" : [
+				{
+					"heading" : "Markets of interest:",
+					"list" : [
+						{ "icon" : "fa-legal", "caption" : "Lawyers and Legal Authorities" },
+						{ "icon" : "fa-bar-chart", "caption" : "Financial Institutions" },
+						{ "icon" : "fa-cogs", "caption" : "Private Equity" },
+						{ "icon" : "fa-line-chart", "caption" : "Stock brokers" },
+						{ "icon" : "fa-exchange", "caption" : "High value trading" },
+						{ "icon" : "fa-angle-down", "caption" : "And others" }
+					]
+				},
+				{
+					"heading" : "Consumer",
+					"list" : [
+						{ "icon" : "fa-sitemap", "caption" : "Licensed usage of Ennetcom servers including our Mobile Encryption Gateway" },
+						{ "icon" : "fa-key", "caption" : "No need for identification to use our services when a global data plan is pre purchased for a fixed period of time" },
+						{ "icon" : "fa-phone", "caption" : "Customer’s choice: either bring your own Blackberry to connect to our services or we can supply a fully programmed BlackBerry® of the shelf" }
+					]
+				},
+				{
+					"heading" : "Business",
+					"list" : [
+						{ "icon" : "fa-server", "caption" : "Possibility to offer our Mobile Encryption Gateway as a licensed management system" },
+						{ "icon" : "fa-cogs", "caption" : "Possibility to have our programs installed and running on your own dedicated servers" },
+						{ "icon" : "fa-server", "caption" : "Possibility to use the Ennetcom servers with customized IT-Policy" },
+						{ "icon" : "fa-exchange", "caption" : "Possibility to connect to our servers with your own BES SIM cards" }
+					]
+				},
+				{
+					"heading" : "Government",
+					"list" : [
+						{ "icon" : "fa-legal", "caption" : "Possibility to offer our Mobile Encryption Gateway as a licensed management system" },
+						{ "icon" : "fa-line-chart", "caption" : "All programs are running on dedicated government servers" }
+					]
+				}
+			]
+		}
+	},
+	"about" : {
+		"main" : {
+			"columnCount" : 1,
+			"columnData" : [{"body" : "Surrounded by an exclusive development team of renowned, ethical hackers and cybersecurity specialists, Ennetcom will continue to push the boundaries in the development of ‘state of the art’ cybersecurity products"}]
+		},
+		"mid" : {
+			"columnCount" : 2,
+			"columnData" : [
+				{"body" : "<p><strong>Since its foundation in 2009, Encrypted Network Communications – Ennetcom, has grown rapidly and developed itself into a solid and advanced cybersecurity company and specialist.</strong></p>"},
+				{"body" : "<p>With a unique, closed communication system, in which millions of encrypted data connections have been realised so far, Ennetcom’s main company focus has always been: to supply indisputable, top level security products for communication and data storage. <br>Over the years, our global team of Ennetcom partners has grown extensively as well. We can supply our products in most of the global cities within 24 hours. <br>In addition; our 24/7 support organization offers a service model that ensures our customers to be looked after at any relevant time or location.</p>"}
+			]
+		},
+		"form" : {
+			"columnCount" : 1,
+			"columnData" : [
+				{"body" : "<strong>Looking for a challenge in the world of secure communication? Ennetcom offers great business opportunities for international distribution partners and/or resellers.</strong></p><p>Whether your business focuses on consumer and/or enterprise markets, our exclusive product portfolio may provide interesting profit potential to your company.</p><p>Please contact us directly for more information.</p>"}
+			],
+			"fields" : [
+				{"type" : "input", "label" : "Company name"},
+				{"type" : "input", "label" : "Your name"},
+				{"type" : "input", "label" : "Your phone number"},
+				{"type" : "input", "label" : "Your email"},
+				{"type" : "input", "label" : "Message"}
+			]
+		}
+	},
+	"Business Solutions" : {
+		"main" : {
+			"columnCount" : 1,
+			"columnData" : [
+				{"body" : "The increasing cost of cybercrime (global economy) is currently estimated at 375 billion euro per year. Within this total, it is ‘theft of confidential business information’ that represents the third largest cost."}
+			]
+		},
+		"mid" : {
+			"masterHeader" : "Business Solutions",
+			"columnCount" : 2,
+			"columnData" : [
+				{"body" : "Loss of investment information, exploration data, sensitive stock-market information or commercial negotiation data. In most cases; information that criminals can and will use immediately. The damage to individual companies, both small and large, runs into the millions. Implementing appropriate security"},
+				{"body" : "measures in defense to cybercrime have become essential. With closed encrypted e-mail platforms, we enable organizations and their customers to communicate in a secure manner. Furthermore; our solutions help to boost efficiency, create time-savings and realise a higher productivity output."}
+			],
+			"quote" : "Ennetcom offers state of the art security solutions for protecting corporate communications and data storage"
+		},
+		"lawyer" : {
+			"masterHeader" : "Lawyer Secure Communication Platform",
+			"columnCount" : 2,
+			"columnData" : [
+				{
+					"heading" : "FEATURES",
+					"list" : [
+						{ "icon" : "fa-key", "caption" : "Triple layer data encryption on email between lawyer vs client" },
+						{ "icon" : "fa-file-pdf-o", "caption" : "Secure document sharing" },
+						{ "icon" : "fa-cogs", "caption" : "A console to manage ‘access allowance’ of clients to its portal" }
+					]
+				},
+				{
+					"heading" : "ADVANTAGES",
+					"list" : [
+						{"icon": "fa-exchange", "caption" : "Optimised efficiency in contact between lawyer vs client"},
+						{"icon": "fa-clock-o", "caption" : "Increased productivity due to better time-management"}
+					]
+				}
+			]
+		},
+		"lawyer_col1" : {
+			"masterHeader": "Secure communication between lawyer and client",
+			"columnCount" : 1,
+			"columnData" : [
+				{"body" : "Up till now, communication took place either over standard communication lines or by meetings face to face. By introducing the Ennetcom Lawyer Secure Communication Platform, lawyers can now optimise their business model. &quot;Save time and serve better!&quot;"}
+			]
+		},
+		"cybersecurity" : {
+			"masterHeader" : "Cybersecurity .. why invest?",
+			"columnCount" : 2,
+			"columnData" : [
+				{"body" : "The effect of cybercrime on businesses is not limited to the loss of the stolen data itself. There are other consequences to recognize; damage to branding and other reputational losses, harm to customer relations and more in general; business continuity."},
+				{"body" : "Furthermore, cleaning up in the aftermath of cybercrime is expensive, often more expensive than the crime itself. While we know criminals will not be able to monetize everything they steal, often the victim has to spend as if they could monetize all the data that was taken."}
+			],
+			"quote" : "Ennetcom has a team of security specialists that consult in how to optimize and implement specific communication security measures for any business or business division"
+		},
+		"enterprise" : {
+			"masterHeader" : "Enterprise mobility",
+			"columnCount" : 2,
+			"columnData" : [
+				{"body" : "In today’s digital world, managing the flow of information in a secure way has become a challenge. Mobility is vital and needs to be managed strategically. People are a company’s greatest asset – their talent, experience, "},
+				{"body" : "creative thinking and determination is what gets the job done and what generates revenue. However, in a mobile world – where most security breaches happen due to accidental human error – they are also the weakest link."}
+			],
+			"quote" : "Ennetcom enables companies of all sizes to create and implement a strong mobility strategy to protect against security breaches and attacks on corporate data and communication, both internal and external"
+		}
+	},
+	"platform" : {
+		"main" : {
+			"columnCount" : 1,
+			"columnData" : [
+				{"body" : "BlackBerry® BIS and BES platform There are 2 types of platforms: BlackBerry® BIS and BES"}
+			]
+		},
+		"platforms" : [
+			{
+				"title" : "BIS (BlackBerry® Internet Service)",
+				"desc" : "The BIS service is widely known for commercial use of BlackBerry®. There is no dedicated server connected to the BlackBerry® device itself. The internet servers of the operators are used to be connected and for transport of data. An advantage of a BIS environment is the flexibility to use different SIM cards from different providers as long as BlackBerry® services are supported. The disadvantage of a BIS environment is the security. Encrypted security cannot be guaranteed without having control of the infrastructure that connects the BlackBerry® devices.",
+				"image" : "Ennetcom_BIS_infographic.png"
+			},
+			{
+				"title" : "BES (BlackBerry® Enterprise Server)",
+				"desc" : "<p>BES is the business model of BlackBerry®. Large corporations and government organizations use this platform as it allows them to set security protocols and add additional high standard encryption to BlackBerry® devices. Infection of BES devices with third party spyware/Trojans/viruses is impossible.</p><p><strong>Ennetcom BlackBerry® devices</strong> are all connected to dedicated BES servers. This implies that the protocols set on the BlackBerry® devices are designed for full protection. It is by no means possible to intercept or decrypt any data coming from a handset. <strong>In addition to the BES environment, Ennetcom has integrated a dedicated Mobile Encryption Gateway</strong> (see image). This solution enables the additional usage of PKI security for encrypted communication on our BlackBerry® devices.</p>",
+				"image" : "Ennetcom_BES_images.png"
+			},
+			{
+				"image" : "Ennetcom_Product_Q10_Certificates.png",
+				"datapoints" : [
+					{
+						"title" : "Compatibility via standard interfaces",
+						"desc" : "The Ennetcom solution uses standard interfaces provided by the BlackBerry® operating system. Without any workflow and application changes, the confidential transfer of messages, calendar entries and contacts is guaranteed. This solution remains completely transparent for the user."
+					},
+					{
+						"title" : "Secure Keystore and Multi-Factor Authentication",
+						"desc" : "This Mobile security solution manages the user certificates and private keys in a secure keystore on the device. Authorized applications can obtain access to these certificates and keys. Binding the keystore to the device ID and the SIM card realizes a multi-factor authentication."
+					}
+				],
+				"mid" : "Any communication with the BlackBerry® devices is hybrid encrypted using the best PKI methods. The usability of the devices remains unchanged. Roll out and certificate management are fully automated and the Private Keys are stored securily on the device itself.",
+				"bulletpoints" : {
+					"columnCount" : 1,
+					"columnData": [{
+						"heading" : "Features of the Ennetcom Mobile Encryption Gateway:",
+						"list" : [
+							{"icon" : "fa-key", "caption" : "PKI encrypted communication with BES Hybrid message encryption (RSA1024, AES256)"},
+							{"icon" : "fa-key", "caption" : "Automatic certificate management for PKI"},
+							{"icon" : "fa-lock", "caption" : "Use of X.509 certificates"},
+							{"icon" : "fa-lock", "caption" : "Protection of S/MIME MEG attachments"},
+							{"icon" : "fa-lock", "caption" : "Multi-Factor Authentication to protect the private keys"},
+							{"icon" : "fa-lock", "caption" : "Over-the-Air (OTA) Roll-Out"}
+						]
+					}]
+				}
+			}
+		]
+	},
+	"faqs" : {
+		"list" : [
+			{"question" : "What is the difference between a Ennetcom BlackBerry® and other BlackBerry® devices?", "answer": "<p>The first difference is the fact that we supply BlackBerry® devices managed within a BES infrastructure. This is by standard the most secure platform to start with. Other companies offer solutions in a BIS or BES express platform. They cannot guarantee that handsets are protected against third party applications.</p><p>We show you what information is visible on the server. Most companies talk about offshore servers which are secured, but you don’t see with your own eyes what the administrators see on the servers. We give you access to the servers and you will see that our infrastructure is built on true security and that no-one, not even the server administrators can see any information going through the network.</p><p>Our solution is built on S/MIME MEG, which means that also attachments in the mails are encrypted. Other solutions don’t have that possibility. This means that our Ennetcom BlackBerry® devices can send email with attachments like files and pictures fully encrypted.</p><p>A common used platform is PGP encryption on BlackBerry®. This platform does NOT have a third party encrypted layer. It is based only on the Blackberry BES or BES Express platform. In other words, real guaranteed anonymous protection is not possible as the RIM platform runs the key management. Our system is built by encryption methods supplied by different developing companies. We can therefore guarantee true encryption because it is multi-layered. Encryption technologies from different developers combined and are added to one another.</p>"},
+			{"question" : "What encryptions are being used for the Ennetcom BlackBerry® devices?", "answer": "<p>The hybrid message encryption uses AES 256 and RSA 1024. These are well known standards for unbreakable encryption. The combination of these 2 encryption standards is used in our S/MIME MEG encrypted Mobile Security Platform. This complete security platform runs on top of the BlackBerry® Enterprise Server which, by itself, is also encrypted by S/MIME MEG. This multi-layered encryption is infinitely strong which makes it impossible to decrypt a message using any type of attack (brute force attack and/or any other).</p>"},
+			{"question" : "Can all BlackBerry® models be used for this platform?", "answer": "<p>Any BlackBerry® that is running on OS-5 and higher can be used for our services. You can bring your own BlackBerry® and we can connect it to our server. However, after programming your BlackBerry®, it can only be used for secure communication and cannot communicate to any other device that is not running on our platform.</p>"},
+			{"question" : "What SIM cards can be used for this Encrypted Infrastructure and what are the costs?", "answer": "<p>Our solution is built on a BlackBerry® BES infrastructure. This means that only BES SIM cards can be used. As a company you can ask your operator for BES sim cards which can then be provided to you. For consumers we offer Post-Paid BES SIM cards. For one hundred Euro per month we have a global roaming plan available. This means you will never have to top up your credit and the BlackBerry® device will work anywhere in the world.</p>"},
+			{"question" : "Can you give me some examples of the costs for the Encrypted BlackBerry® Solution?", "answer": "<p>No, it is not possible to give price examples as every solution has its own inventory of needs (requirements). Please $1 if you have any specific questions.</p>", "replace" : {"$1" : "<a href=\"https://www.ennetcom.com/contact-2/\">contact us</a>"}}
+		]
+	},
+	"countries" : {
+		"world" : [
+			"Afghanistan",
+			"Alaska (United States)",
+			"Albania",
+			"Algeria",
+			"Andorra",
+			"Angola",
+			"Anguilla",
+			"Antigua and Barbuda",
+			"Argentina",
+			"Armenia",
+			"Aruba",
+			"Australia",
+			"Azerbaijan",
+			"Azores (Portugal)",
+			"Bahrain",
+			"Balearic Islands (Spain)",
+			"Bangladesh",
+			"Barbados",
+			"Belarus",
+			"Belgium",
+			"Belize",
+			"Benin",
+			"Bermuda",
+			"Bhutan",
+			"Bolivia",
+			"Bonaire (Netherlands Antilles)",
+			"Bosnia and Herzegovina",
+			"Botswana",
+			"Brazil",
+			"British Virgin Islands",
+			"Brunei Darussalam",
+			"Bulgaria",
+			"Burkina Faso",
+			"Burundi",
+			"Cambodia",
+			"Canada",
+			"Canary Islands (Spain)",
+			"Central African Republic",
+			"Chile",
+			"China",
+			"Colombia",
+			"Congo",
+			"Congo (Democratic rep.)",
+			"Costa Rica",
+			"Cuba",
+			"Curacao (Netherlands Antilles)",
+			"Cyprus (Greek part)",
+			"Denmark",
+			"Djibouti",
+			"Dominica",
+			"Dominican Republic",
+			"Germany",
+			"Ecuador",
+			"Egypt",
+			"El Salvador",
+			"Equatorial Guinea",
+			"Estonia",
+			"Ethiopia",
+			"Faroe Islands",
+			"Philippines",
+			"Finland",
+			"France",
+			"French Antilles",
+			"French Guiana",
+			"French Polynesia",
+			"Gabon",
+			"Galapagos Islands (Ecuador)",
+			"Gambia",
+			"Georgia",
+			"Ghana",
+			"Gibraltar",
+			"Grenada",
+			"Greece",
+			"Greenland",
+			"Great Britain",
+			"Guadeloupe",
+			"Guam",
+			"Guatemala",
+			"Guernsey (Great Britain)",
+			"Guinea",
+			"Guyana",
+			"Haiti",
+			"Hawaii (United States)",
+			"Honduras",
+			"Hungary",
+			"Hong-Kong",
+			"Ireland",
+			"Iceland",
+			"India",
+			"Indonesia",
+			"Iraq",
+			"Iran",
+			"Isla Margarita (Venezuela)",
+			"Isle of Man (UK)",
+			"Israel",
+			"Italy",
+			"Ivory Coast",
+			"Jamaica",
+			"Japan",
+			"Yemen",
+			"Jersey (UK)",
+			"Jordan",
+			"Cayman Islands",
+			"Cape Verde",
+			"Cameroon",
+			"Kazakhstan",
+			"Kenya",
+			"Kyrgyzstan",
+			"Kuwait",
+			"Kosovo",
+			"Croatia",
+			"Laos",
+			"Lesotho",
+			"Latvia",
+			"Lebanon",
+			"Liberia",
+			"Liechtenstein",
+			"Lithuania",
+			"Luxembourg",
+			"Fiji"
+		],
+		"europe" : [
+			"Austria",
+			"Belgium",
+			"Bulgaria",
+			"Cyprus",
+			"Czech Republic",
+			"Denmark",
+			"Estonia",
+			"Finland",
+			"France",
+			"Germany",
+			"Greece",
+			"Hungary",
+			"Ireland",
+			"Italy",
+			"Latvia",
+			"Lithuania",
+			"Luxembourg",
+			"Malta",
+			"Netherlands",
+			"Poland",
+			"Portugal",
+			"Romania",
+			"Slovakia",
+			"Slovenia",
+			"Spain",
+			"Sweden",
+			"United Kingdom"
+		]
+	},
+	"plans" : {
+		"S/MIME MEG BlackBerry®" : [
+			{
+				"name": "Netherlands (NL)",
+				"cardType" : "BES-SIM Card",
+				"duration": "12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"S/MIME ENCRYPTED ATTACHMENT",
+					"UNLIMITED USAGE",
+					"DUTCH NETWORK**"
+				]
+			},
+			{
+				"name": "Europe (EU+) ",
+				"cardType" : "BES-SIM Card",
+				"duration": "12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"S/MIME ENCRYPTED ATTACHMENT",
+					"UNLIMITED USAGE",
+					"EUROPEAN NETWORK**"
+				]
+			},
+			{
+				"name": "World (W)",
+				"cardType" : "BES-SIM Card",
+				"duration": "6 - 12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"S/MIME ENCRYPTED ATTACHMENT",
+					"UNLIMITED USAGE",
+					"WORLD WIDE NETWORK**"
+				]
+			}
+		],
+		"Open PGP BlackBerry®" : [
+			{
+				"name": "Netherlands (NL)",
+				"cardType" : "BES-SIM Card",
+				"duration": "12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"UNLIMITED USAGE",
+					"DUTCH NETWORK**"
+				]
+			},
+			{
+				"name": "Europe (EU+) ",
+				"cardType" : "BES-SIM Card",
+				"duration": "12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"UNLIMITED USAGE",
+					"EUROPEAN NETWORK**"
+				]
+			},
+			{
+				"name": "World (W)",
+				"cardType" : "BES-SIM Card",
+				"duration": "6 - 12 MONTHS",
+				"features": [
+					"BLACKBERRY® BOLD 9790",
+					"SECURE & ENCRYPTED EMAIL",
+					"UNLIMITED USAGE",
+					"WORLD WIDE NETWORK**"
+				]
+			}
+		]
+	}
+
+}

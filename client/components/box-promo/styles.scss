@@ -1,0 +1,81 @@
+
+@import '../global.scss';
+
+@mixin border {
+	border: .1em solid $footerGrey;
+}
+
+[data-type=component] {
+		
+	a {
+		&.contact {
+			@include primary-cta;
+			padding: .2em .7em;
+			border-radius: 1em;
+
+			span {
+				display: inline-block;
+				margin-right: 5em;
+			}
+		}
+	}
+
+	h4 {
+		font-size: .8em;
+		margin-bottom: 4em;
+	}
+	
+	.cta {
+		@include primary-cta;
+		padding: .1em 0.4em;
+	}
+
+	.row {
+		margin: 0;
+	}
+}
+
+[data-type-varient=box-promo] {
+
+	h3 {
+		font-weight: 200;
+	}
+	
+	p {
+		color: $greyOnGrey;
+		font-size: .8em;
+	}
+}
+
+.layout1 {
+	background: linear-gradient(180deg, rgba(238,238,238,0), rgba(216,216,216,100));
+	@include border;
+
+	img {
+		max-width: 75%;
+		position: absolute;
+		bottom: 0;
+		right: 1em;
+	}
+
+	p {
+		padding: 1em;
+	}
+}
+
+.layout2 {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQANnzpz5z4gsBhIwMTFhhAvCBECKwILIAmBBdAGQIADcqBNp/ahu1gAAAABJRU5ErkJggg==);
+	@include border;
+
+	img {
+		max-height: 8em;
+	}
+} 
+
+.layout3 {
+	background: linear-gradient(180deg, rgba(238,238,238,0), rgba(216,216,216,100));
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	@include border;
+}

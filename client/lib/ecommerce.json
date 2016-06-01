@@ -1,0 +1,22 @@
+{
+	"cart": {
+		"addtoCartName": "Add to Cart",
+		"noItems": "Cart is empty",
+		"total": "Total",
+		"currencySymbol": "&pound;",
+		"remove": "Remove",
+		"title": "Cart",
+		"itemName": "Name",
+		"itemQty": "Qty",
+		"itemPrice": "Price"
+	},
+	"checkout": {
+		"name": "Checkout",
+		"action": "https://www.sagepay.co.uk/gateway",
+		"hiddenFields": [
+			{"name": "id", "value":"vaughn123"},
+			{"name": "cartType", "value": "x-cart" },
+			{"name": "amount" }
+		]
+	}
+}

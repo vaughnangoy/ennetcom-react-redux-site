@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700);@mixin primary-cta {
+	border-radius: .7em;
+	background: linear-gradient(180deg, rgba(71,157,210,100), rgba(0,108,181,100));
+	padding:.5em;
+	color: $white;
+} $font-headers:		'Ubuntu', sans-serif;
+$font-paragraph: 	'Source Sans Pro', sans-serif;
+
+$white:				#fff;
+$black:				#000;
+$blue:				#006CB5;
+$footerGrey:		rgba(216,216,216,100);
+$greyOnGrey:		#4A4A4A;
+
+$marginBottom: 20px;
+
+body {
+	font-family: $font-paragraph;
+	background: $white;
+	margin: 0;
+
+	h1 {
+		font-family: $font-headers;
+	}
+
+	p, h3 {
+		font-family: $font-paragraph;
+	}
+
+	.container > * {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	a {
+		&:link,
+		&:visited,
+		&:focus {
+			color: $blue;
+		}
+	}
+
+	blockquote {
+		border: none;
+	}
+
+	address {
+		padding-top: .4em;
+	}
+
+	.centre {
+		text-align: center;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.left {
+		text-align: left;
+	}
+
+	.absolute {
+		position: absolute;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.pad {
+		padding: 1em;
+	}
+
+	.mgn {
+		margin: 1em;
+	}
+}
+
+.primary-cta {
+	@include primary-cta;
+}
+
+.container[data-section-type="body"] {
+	.products {
+		h2 {
+			padding-top: 0;
+		}
+	}
+}
+
+.products {
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		color: $footerGrey;
+		margin-top: -40px;
+	}
+
+	.description {
+		color: $white;
+		font-size: 1em;
+		background-color: $greyOnGrey;
+		margin-bottom: $marginBottom;
+
+	}
+}
+
+.markets {
+	[data-type="feature-badge"] {
+		margin-bottom: 1em;
+	}
+}
+
+
+
+header {
+	font-size: 4rem;
+	color: #ff0000;
+}
