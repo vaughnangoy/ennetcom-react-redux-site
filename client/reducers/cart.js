@@ -12,7 +12,9 @@ export default function (state = [], action) {
 
 	switch (action.type) {
 		case ADD_TO_CART:
-			return addToCart(state, action);
+			return state.filter((item) => item.id == action.payload.id).length > 0 ? state.map((item) => {
+				return item.id == action.payload.id ? {id: item.id, qty: item.qty + action.payload.qty} : item;
+			}) : [...state, action.payload]; 
 		case REMOVE_FROM_CART:
 			return state.filter((item) => item.id != action.payload.id);
 		case CHANGE_QTY:
@@ -24,5 +26,7 @@ export default function (state = [], action) {
 		default:
 			return state;
 	}
+
+	return state;
 }
 
